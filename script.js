@@ -7,7 +7,7 @@ let valores = []
 /* função para verificar se o input é um número
 e se ele está dentro das regras estipuladas */
 function isNumero(n){
-    if (Number(n) >= 1 && Number(n) <= 100){
+    if (Number(n) >= 1 && Number(n) <= 1000){
         return true
     } else{
         return false
